@@ -621,7 +621,7 @@ footer {
 	}*/
 }
 
-@media screen and (min-width: 1440) {
+@media screen and (min-width: /*80em*/ 1440px) {
 
 	nav ul {
 		display: none;
