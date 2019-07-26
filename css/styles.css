@@ -597,6 +597,41 @@ footer {
 		margin-bottom: 48%;
 	}
 
+	.bubble {
+		position: fixed;
+		top: 4%;
+		right: 4%;
+		width: 160px;
+		height: 160px;
+		border-radius: 100%;
+		background-color: red;
+		z-index: 101;
+		-webkit-animation: idk 4s infinite; /* safari 4–8 */
+		animation: idk 4s infinite;
+		}
+		@-webkit-keyframes idk {
+			0%		{
+						-webkit-transform: scale(0.5, 0.5);
+						transform: scale(0.5, 0.5);}
+			50%		{
+						-webkit-transform: scale(1.0, 1.0);
+						transform: scale(1.0, 1.0);}
+			100%	{
+						-webkit-transform: scale(0.5, 0.5);
+						transform: scale(0.5, 0.5);}
+		}
+		@keyframes idk {
+			0%		{
+						-webkit-transform: scale(0.5, 0.5);
+						transform: scale(0.5, 0.5);}
+			50%		{
+						-webkit-transform: scale(1.0, 1.0);
+						transform: scale(1.0, 1.0);}
+			100%	{
+						-webkit-transform: scale(0.5, 0.5);
+						transform: scale(0.5, 0.5);}
+		}
+
 	.bio {
 		margin: 24% 0 16% 0;
 	}
